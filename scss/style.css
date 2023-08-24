@@ -1,0 +1,101 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1168px;
+  margin: 0 auto;
+}
+
+.header {
+  margin: 80px 0;
+}
+.header section {
+  display: flex;
+}
+.header section .container h1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.main {
+  margin-bottom: 80px;
+}
+.main .main-img {
+  margin-bottom: 60px;
+}
+.main .main-img .container img {
+  max-width: 100%;
+}
+.main .main-text {
+  display: flex;
+}
+.main .main-text .container {
+  display: flex;
+  justify-content: space-between;
+}
+.main .main-text .container p {
+  max-width: 568px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 80px;
+}
+.footer .container {
+  padding: 25px 50px;
+  background-color: #F1F1F1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .container .footer-text {
+  max-width: 48%;
+}
+.footer .container .footer-text h2 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px;
+}
+.footer .container .form {
+  display: flex;
+  flex-direction: column;
+  max-width: 48%;
+}
+.footer .container .form input {
+  border-radius: 10px;
+  width: 416px;
+  margin-bottom: 8px;
+  padding: 11px 24px;
+}
+.footer .container .form .form-btn button {
+  background-color: #3D3BFF;
+  border-radius: 10px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 11px 54px;
+  margin-top: 24px;
+}/*# sourceMappingURL=style.css.map */
